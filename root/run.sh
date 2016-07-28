@@ -5,7 +5,7 @@ i=0
 max=$1
 server=$(uci get wibed.general.api_url)
 experiment="WibedTopology"
-iface="mgmt1"
+iface="scanradio"
 
 #Identify my ID
 myid=$(uci get wibed.general.node_id)
